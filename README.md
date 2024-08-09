@@ -1,22 +1,60 @@
-## Flutter To-Do App with Firebase
+# Flutter To-Do App with Firebase
 
-![Untitled design (1)](https://github.com/alireza4585/flutter-to-do-app/assets/102475069/ac08ec28-560f-4bc6-a728-026c9556e1f4)
-
-## Tutorial : https://youtu.be/2DPkZEzEn70
+![App Screenshot](https://github.com/alireza4585/flutter-to-do-app/assets/102475069/ac08ec28-560f-4bc6-a728-026c9556e1f4)
 
 This repository contains a simple Flutter to-do app that utilizes Firebase for backend services. The app allows users to create, manage, and organize their to-do tasks seamlessly. Firebase is integrated for real-time data synchronization, authentication, and cloud storage.
 
+## Features
 
-### Features
+- **User Authentication:** 
+  - The app supports user registration and authentication using Firebase Authentication.
+  
+- **Real-time Data Sync:** 
+  - To-do tasks are synchronized in real-time across multiple devices.
 
-. User Authentication: The app supports user registration and authentication using Firebase Authentication.
+- **Add and Edit Tasks:** 
+  - Users can add new tasks and edit existing ones with ease.
 
-. Real-time Data Sync: To-do tasks are synchronized in real-time across multiple devices.
+- **Mark as Complete:** 
+  - Tasks can be marked as complete, with a visual indication for completed tasks.
 
-. Add and Edit Tasks: Users can add new tasks and edit existing ones with ease.
+- **Delete Tasks:** 
+  - Users can delete tasks they no longer need.
 
-. Mark as Complete: Tasks can be marked as complete, and the app provides a visual indication for completed tasks.
+- **Task Categories:** 
+  - Tasks can be organized into different categories or projects.
 
-. Delete Tasks: Users can delete tasks they no longer need.
+## Getting Started
 
-. Task Categories: Tasks can be organized into different categories or projects.
+### Prerequisites
+
+- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Firebase Account](https://firebase.google.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/flutter-to-do-app.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd flutter-to-do-app
+   ```
+3. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+4. **Set up Firebase:**
+   - Go to the [Firebase Console](https://console.firebase.google.com/), create a new project, and configure it for both iOS and Android.
+   - Download the `google-services.json` file for Android and `GoogleService-Info.plist` file for iOS, and place them in their respective directories as per the Firebase setup instructions.
+   
+5. **Run the app:**
+   ```bash
+   flutter run
+   ```
+
+## Firebase Setup Guide
+
+For a detailed guide on setting up Firebase with Flutter, refer to the official [Firebase Documentation](https://firebase.flutter.dev/docs/overview).
+
